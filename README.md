@@ -16,14 +16,14 @@ Based on various meteorological surveys and people's styles, the service provide
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 ## Conclusion
-#### - We can see 1 Negative prediction here which can be due to Scaling of the Test variables based in scaler object of Training data set. We have made similar obsevation after applying scaling on test set , windspeed minimum value was negative.
-#### - It is possible to cap the value of 'y_test_pred' to not show any negative values but we are not doing that here.
-#### - The point here is - Even though we have got a Negative value, but the Relation shown between actual and predicted values here is Linear.
-#### - The top three features contributing significantly to explaining the demand for shared bikes in the final linear regression model, based on their p-values, are:
-####          1.	‘yr’ (year) with a p-value of approximately 1.97e-96.
-####          2.	‘atemp’ (feeling temperature) with a p-value of approximately 5.75e-46.
-####          3.	‘spring’ (season: spring) with a p-value of approximately 4.73e-29.
-#### These features have extremely low p-values, indicating high statistical significance and strong contributions to the model's explanatory power.
+ - We can see 1 Negative prediction here which can be due to Scaling of the Test variables based in scaler object of Training data set. We have made similar obsevation after applying scaling on test set , windspeed minimum value was negative.
+ - It is possible to cap the value of 'y_test_pred' to not show any negative values but we are not doing that here.
+ - The point here is - Even though we have got a Negative value, but the Relation shown between actual and predicted values here is Linear.
+ - The top three features contributing significantly to explaining the demand for shared bikes in the final linear regression model, based on their p-values, are:
+   1.	‘yr’ (year) with a p-value of approximately 1.97e-96.
+   2.	‘atemp’ (feeling temperature) with a p-value of approximately 5.75e-46.
+   3.	‘spring’ (season: spring) with a p-value of approximately 4.73e-29.
+These features have extremely low p-values, indicating high statistical significance and strong contributions to the model's explanatory power.
 
 ## Technologies Used
 - Name: numpy & Version: 1.24.3
