@@ -31,6 +31,8 @@ These features have extremely low p-values, indicating high statistical signific
 - Name: pandas & Version: 1.5.3
 - Name: matplotlib & Version: 3.7.1
 - Name: seaborn & Version: 0.12.2
+- Name: scikit-learn (sklearn) & Version: 1.2.2
+- Name: statsmodels & Version: 0.13.5
 
 ## Contact
 Created by [@Aafreen9930] - feel free to contact me!
